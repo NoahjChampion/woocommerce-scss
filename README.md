@@ -1,6 +1,6 @@
-# WP Site Care WooCommerce Styles
+# WooCommerce.scss
 
-WooCommerce styles for use in Alpha and Foxtrot.
+WooCommerce styles for use in Alpha, Foxtrot, and any other Sassy WordPress theme.
 
 __Contributors:__ [Robert Neu](https://github.com/robneu), [Ozzy Rodriguez](https://github.com/ozzyrod)  
 __Requires:__ WordPress 4.4, WooCommerce 2.5.2  
