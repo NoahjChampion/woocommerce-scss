@@ -4,13 +4,13 @@
 
 // Import mixins necessary for Woo to work
 @import "bourbon";
-@import "mixins/woo-mixins";
+@import "mixins/partials/woo-mixins";
 
 // Fonts
-@import "woo-fonts";
+@import "partials/woo-fonts";
 
 // Animation
-@import "woo-animation";
+@import "partials/woo-animation";
 
 // Load WooCommerce Variables
 @import "variables/colors";
@@ -25,97 +25,96 @@
 /*
 General Layout Styles
 ----------------------------------------------------------------------------- */
-@import "woo-general";
+@import "partials/woo-general";
 
 /*
 Product Page
 ----------------------------------------------------------------------------- */
-@import "woo-product-page";
+@import "partials/woo-product-page";
 
 /*
 Product Page
 ----------------------------------------------------------------------------- */
-@import "woo-product-page";
+@import "partials/woo-product-page";
 
 /*
 Product Loops
 ----------------------------------------------------------------------------- */
-@import "woo-product-loops";
+@import "partials/woo-product-loops";
 
 /*
 Cart Page
 ----------------------------------------------------------------------------- */
-@import "woo-cart";
+@import "partials/woo-cart";
 
 /*
 Forms
 ----------------------------------------------------------------------------- */
-@import "woo-forms";
+@import "partials/woo-forms";
 
 /*
 Main WooCommerce Styles
 ----------------------------------------------------------------------------- */
-@import "woo-main-woocommerce";
+@import "partials/woo-main-woocommerce";
 
 /*
 Buttons
 ----------------------------------------------------------------------------- */
-@import "woo-buttons";
+@import "partials/woo-buttons";
 
 /*
 Reviews
 ----------------------------------------------------------------------------- */
-@import "woo-reviews";
+@import "partials/woo-reviews";
 
 /*
 Star Ratings
 ----------------------------------------------------------------------------- */
-@import "woo-star-ratings";
+@import "partials/woo-star-ratings";
 
 /*
 Tables
 ----------------------------------------------------------------------------- */
-@import "woo-tables";
+@import "partials/woo-tables";
 
 /*
 Orders
 ----------------------------------------------------------------------------- */
-@import "woo-orders";
+@import "partials/woo-orders";
 
 /*
 Orders
 ----------------------------------------------------------------------------- */
-@import "woo-widgets";
+@import "partials/woo-widgets";
 
 }
 
 /*
 Global Styles
 ----------------------------------------------------------------------------- */
-@import "woo-global";
+@import "partials/woo-global";
 
 /*
 Global Account Styles
 ----------------------------------------------------------------------------- */
-@import "woo-global-account";
+@import "partials/woo-global-account";
 
 /*
 Global Cart Styles
 ----------------------------------------------------------------------------- */
-@import "woo-global-cart";
+@import "partials/woo-global-cart";
 
 /*
 Global Checkout Styles
 ----------------------------------------------------------------------------- */
-@import "woo-global-checkout";
+@import "partials/woo-global-checkout";
 
 /*
 Global Password Meter Styles
 ----------------------------------------------------------------------------- */
-@import "woo-global-password";
+@import "partials/woo-global-password";
 
 /*
 Global Extra Styles
 ----------------------------------------------------------------------------- */
-@import "woo-global-password";
-
+@import "partials/woo-global-password";
