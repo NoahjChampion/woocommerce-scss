@@ -35,9 +35,7 @@ linters:
     # WordPress standards say this is the cool thing to do.
 
   PropertySortOrder:
-    enabled: true
-    order: smacss
-    # This is the closest thing we could find to the order suggested by WP.
+    enabled: false
 
   PropertySpelling:
     enabled: true
