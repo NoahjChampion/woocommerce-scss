@@ -1,0 +1,169 @@
+table.cart,
+#content table.cart {
+	img {
+		height: auto;
+	}
+
+	td.actions {
+		text-align: right;
+
+		.input-text {
+			width: 80px;
+		}
+
+		.coupon {
+			float: left;
+
+			label {
+				display: none;
+			}
+		}
+	}
+}
+
+.cart-collaterals {
+	@include full();
+
+	@include min-screen($medium-screen) {
+		.related {
+			@include span(1 of 3);
+		}
+
+		.cross-sells {
+			@include span(1 of 2);
+
+			ul.products {
+				float: none;
+
+				li {
+					@include span(1 of 2);
+				}
+			}
+		}
+	}
+
+	.shipping_calculator {
+
+		@include min-screen($medium-screen) {
+			@include span(last 1 of 2);
+
+			.col2-set {
+				.col-1,
+				.col-2 {
+					@include span(1 of 2);
+				}
+
+				.col-2 {
+					@include last();
+				}
+			}
+		}
+	}
+
+	.cart_totals {
+		@include min-screen($medium-screen) {
+			@include span(last 1 of 2);
+		}
+	}
+}
+
+/* Cart Sidebar
+--------------------------------------------- */
+ul.cart_list,
+ul.product_list_widget {
+	li {
+		@include mediaright();
+	}
+}
+
+ul.cart_list,
+ul.product_list_widget {
+	list-style: none outside;
+	padding: 0;
+	margin: 0;
+
+	li {
+		padding: 4px 0;
+		margin: 0;
+		@include clearfix();
+		list-style: none;
+
+		a {
+			display: block;
+			font-weight: 700;
+		}
+
+		img {
+			float: right;
+			margin-left: 4px;
+			width: 32px;
+			height: auto;
+			box-shadow: none;
+		}
+
+		dl {
+			@include clearfix();
+			margin: 0;
+			padding-left: 1em;
+			border-left: 2px solid rgba($off-black, 0.1);
+
+			dt,
+			dd {
+				display: inline-block;
+				float: left;
+				margin-bottom: 1em;
+			}
+
+			dt {
+				font-weight: 700;
+				padding: 0 0 0.25em;
+				margin: 0 4px 0 0;
+				clear: left;
+			}
+
+			dd {
+				padding: 0 0 0.25em;
+
+				p:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.star-rating {
+			float: none;
+		}
+	}
+}
+
+&.widget_shopping_cart,
+.widget_shopping_cart {
+	.total {
+		border-top: 3px double $secondary;
+		padding: 4px 0 0;
+
+		strong {
+			min-width: 40px;
+			display: inline-block;
+		}
+	}
+
+	.cart_list {
+		li {
+			padding-left: 2em;
+			position: relative;
+			padding-top: 0;
+
+			a.remove {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+
+	.buttons {
+		@include clearfix();
+	}
+}
+
