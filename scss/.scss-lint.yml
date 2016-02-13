@@ -15,10 +15,6 @@ linters:
     enabled: true
     # We should document exceptions to the rules.
 
-  DuplicateProperty:
-    enabled: false
-    # We may need to do this in order to support old browsers.
-
   IdSelector:
     enabled: false
     # WordPress spits out IDs like it's going out of style (which it is).
