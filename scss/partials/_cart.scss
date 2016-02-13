@@ -1,3 +1,5 @@
+// Cart Page
+//---------------------------------------------
 table.cart,
 #content table.cart {
 	img {
@@ -67,8 +69,8 @@ table.cart,
 	}
 }
 
-/* Cart Sidebar
---------------------------------------------- */
+// Cart Sidebar
+//---------------------------------------------
 ul.cart_list,
 ul.product_list_widget {
 	li {
@@ -166,4 +168,3 @@ ul.product_list_widget {
 		@include clearfix();
 	}
 }
-

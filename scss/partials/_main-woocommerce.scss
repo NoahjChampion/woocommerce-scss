@@ -1,6 +1,8 @@
+// Main Styles
+//---------------------------------------------
 .blockUI.blockOverlay {
-	position: relative;
 	@include loader();
+	position: relative;
 }
 
 .loader {
@@ -29,14 +31,14 @@ a.remove {
 .woocommerce-message,
 .woocommerce-error,
 .woocommerce-info {
+	@include clearfix();
 	padding: 1em 2em 1em 3.5em !important;
 	margin: 0 0 2em !important;
 	position: relative;
-	background-color: lighten($secondary,5%);
+	background-color: lighten($secondary, 5%);
 	color: $secondarytext;
 	border-top: 3px solid $primary;
 	list-style: none outside !important;
-	@include clearfix();
 	width: auto;
 	word-wrap: break-word;
 

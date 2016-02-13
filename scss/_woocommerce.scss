@@ -1,120 +1,69 @@
-/**
- * WooCommerce Styles
- */
+/*
+WooCommerce Styles
+----------------------------------------------------------------------------- */
 
 // Import mixins necessary for Woo to work
 @import "bourbon";
-@import "mixins/mixins";
+@import "mixins/global";
 
 // Load WooCommerce Variables
 @import "variables/colors";
 
-// Fonts
+/*
+WooCommerce Fonts
+--------------------------------------------- */
 @import "partials/fonts";
 
-// Animation
+/*
+WooCommerce Animation
+--------------------------------------------- */
 @import "partials/animation";
 
-/**
- * WooCommerce Front End Layout Styles
- */
-
+/*
+WooCommerce General Styles
+--------------------------------------------- */
 .woocommerce,
 .woocommerce-page {
-
-/*
-General Layout Styles
------------------------------------------------------------------------------ */
-@import "partials/general";
-
-/*
-Product Page
------------------------------------------------------------------------------ */
-@import "partials/product-page";
-
-/*
-Product Page
------------------------------------------------------------------------------ */
-@import "partials/product-page";
-
-/*
-Product Loops
------------------------------------------------------------------------------ */
-@import "partials/product-loops";
-
-/*
-Cart Page
------------------------------------------------------------------------------ */
-@import "partials/cart";
-
-/*
-Forms
------------------------------------------------------------------------------ */
-@import "partials/forms";
-
-/*
-Main WooCommerce Styles
------------------------------------------------------------------------------ */
-@import "partials/main-woocommerce";
-
-/*
-Buttons
------------------------------------------------------------------------------ */
-@import "partials/buttons";
-
-/*
-Reviews
------------------------------------------------------------------------------ */
-@import "partials/reviews";
-
-/*
-Star Ratings
------------------------------------------------------------------------------ */
-@import "partials/star-ratings";
-
-/*
-Tables
------------------------------------------------------------------------------ */
-@import "partials/tables";
-
-/*
-Orders
------------------------------------------------------------------------------ */
-@import "partials/orders";
-
-/*
-Orders
------------------------------------------------------------------------------ */
-@import "partials/widgets";
-
+	@import "partials/general";
+	@import "partials/product-page";
+	@import "partials/product-loops";
+	@import "partials/cart";
+	@import "partials/forms";
+	@import "partials/main-woocommerce";
+	@import "partials/buttons";
+	@import "partials/reviews";
+	@import "partials/star-ratings";
+	@import "partials/tables";
+	@import "partials/orders";
+	@import "partials/widgets";
 }
 
 /*
 Global Styles
------------------------------------------------------------------------------ */
+--------------------------------------------- */
 @import "partials/global";
 
 /*
 Global Account Styles
------------------------------------------------------------------------------ */
+--------------------------------------------- */
 @import "partials/global-account";
 
 /*
 Global Cart Styles
------------------------------------------------------------------------------ */
+--------------------------------------------- */
 @import "partials/global-cart";
 
 /*
 Global Checkout Styles
------------------------------------------------------------------------------ */
+--------------------------------------------- */
 @import "partials/global-checkout";
 
 /*
 Global Password Meter Styles
------------------------------------------------------------------------------ */
+--------------------------------------------- */
 @import "partials/global-password";
 
 /*
 Global Extra Styles
------------------------------------------------------------------------------ */
+--------------------------------------------- */
 @import "partials/global-password";
