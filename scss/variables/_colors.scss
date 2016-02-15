@@ -2,20 +2,28 @@
  * WooCommerce CSS Variables
  */
 
-$woocommerce:   $dark-blue;
-$green:         #7ad03a;
-$red:           #f00;
-$orange:        #ffba00;
-$blue:          $medium-blue;
+$woocommerce:        #a46497 !default;
+$woocommerce-green:  #7ad03a !default;
+$woocommerce-red:    #a00 !default;
+$woocommerce-orange: #ffba00 !default;
+$woocommerce-blue:   #2ea2cc !default;
 
-$primary:       $base-button-background-color;              // Primary colour for buttons (alt)
-$primarytext:   $base-button-background-color-hover;        // Text on primary colour bg
+// Primary colour for buttons (alt)
+$woocommerce-primary: #a46497 !default;
+ // Text on primary colour bg
+$woocommerce-primary-text: desaturate(lighten($woocommerce-primary, 50%), 18%) !default;
 
-$secondary:     $cta-button-background-color;               // Secondary buttons
-$secondarytext: $cta-button-font-color;                     // Text on secondary colour bg
+// Secondary buttons
+$woocommerce-secondary: desaturate(lighten($woocommerce-primary, 40%), 21%) !default;
+// Text on secondary colour bg
+$woocommerce-secondary-text: desaturate(darken($woocommerce-secondary, 60%), 21%) !default;
 
-$highlight:     adjust-hue($primary, 150deg);               // Prices, In stock labels, sales flash
-$highlightext:  desaturate(lighten($highlight, 50%), 18%);  // Text on highlight colour bg
+// Prices, In stock labels, sales flash
+$woocommerce-highlight: adjust-hue($woocommerce-primary, 150deg) !default;
+// Text on highlight colour bg
+$woocommerce-highlight-text: desaturate(lighten($woocommerce-highlight, 50%), 18%) !default;
 
-$contentbg:     $base-background-color;                     // Content BG - Tabs (active state)
-$subtext:       $base-font-color;                           // small, breadcrumbs etc
+// Content BG - Tabs (active state)
+$woocommerce-content-bg: #fff !default;
+// Small, breadcrumbs etc
+$woocommerce-sub-text: #777 !default;

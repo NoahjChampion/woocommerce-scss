@@ -87,7 +87,7 @@ form {
 		}
 
 		.required {
-			color: $red;
+			color: $woocommerce-red;
 			font-weight: 700;
 			border: 0;
 		}
@@ -124,12 +124,12 @@ form {
 
 		&.woocommerce-invalid {
 			label {
-				color: $red;
+				color: $woocommerce-red;
 			}
 			.select2-container,
 			input.input-text,
 			select {
-				border-color: $red;
+				border-color: $woocommerce-red;
 			}
 		}
 
@@ -137,7 +137,7 @@ form {
 			.select2-container,
 			input.input-text,
 			select {
-				border-color: $green - #111;
+				border-color: $woocommerce-green - #111;
 			}
 		}
 
@@ -158,7 +158,7 @@ form {
 form.login,
 form.checkout_coupon,
 form.register {
-	border: 1px solid darken($secondary, 10%);
+	border: 1px solid darken($woocommerce-secondary, 10%);
 	padding: 20px;
 	margin: 2em 0;
 	text-align: left;

@@ -141,7 +141,7 @@ ul.product_list_widget {
 &.widget_shopping_cart,
 .widget_shopping_cart {
 	.total {
-		border-top: 3px double $secondary;
+		border-top: 3px double $woocommerce-secondary;
 		padding: 4px 0 0;
 
 		strong {

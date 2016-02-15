@@ -17,13 +17,13 @@ a.remove {
 	text-align: center;
 	line-height: 1;
 	border-radius: 100%;
-	color: red !important;
+	color: red;
 	text-decoration: none;
 	font-weight: 700;
 	border: 0;
 
 	&:hover {
-		color: #fff !important;
+		color: #fff;
 		background: red;
 	}
 }
@@ -32,13 +32,13 @@ a.remove {
 .woocommerce-error,
 .woocommerce-info {
 	@include clearfix();
-	padding: 1em 2em 1em 3.5em !important;
-	margin: 0 0 2em !important;
+	padding: 1em 2em 1em 3.5em;
+	margin: 0 0 2em;
 	position: relative;
-	background-color: lighten($secondary, 5%);
-	color: $secondarytext;
-	border-top: 3px solid $primary;
-	list-style: none outside !important;
+	background-color: lighten($woocommerce-secondary, 5%);
+	color: $woocommerce-secondarytext;
+	border-top: 3px solid $woocommerce-primary;
+	list-style: none outside;
 	width: auto;
 	word-wrap: break-word;
 
@@ -56,9 +56,9 @@ a.remove {
 	}
 
 	li {
-		list-style: none outside !important;
-		padding-left: 0 !important;
-		margin-left: 0 !important;
+		list-style: none outside;
+		padding-left: 0;
+		margin-left: 0;
 	}
 }
 

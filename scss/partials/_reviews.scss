@@ -65,8 +65,8 @@
 					padding: 3px;
 					width: 32px;
 					height: auto;
-					background: $secondary;
-					border: 1px solid darken($secondary, 3%);
+					background: $woocommerce-secondary;
+					border: 1px solid darken($woocommerce-secondary, 3%);
 					margin: 0;
 					box-shadow: none;
 				}
@@ -74,7 +74,7 @@
 				.comment-text {
 					@include clearfix();
 					margin: 0 0 0 50px;
-					border: 1px solid darken($secondary, 3%);
+					border: 1px solid darken($woocommerce-secondary, 3%);
 					border-radius: 4px;
 					padding: 1em 1em 0;
 
@@ -98,7 +98,7 @@
 			}
 
 			#respond {
-				border: 1px solid darken($secondary, 3%);
+				border: 1px solid darken($woocommerce-secondary, 3%);
 				border-radius: 4px;
 				padding: 1em 1em 0;
 				margin: 20px 0 0 50px;
