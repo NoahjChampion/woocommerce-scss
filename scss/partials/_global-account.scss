@@ -1,7 +1,7 @@
 .woocommerce-account {
 	.addresses {
 		.title {
-			@include clearfix();
+			@include woocommerce-clearfix();
 
 			h3 {
 				float: left;
@@ -39,7 +39,7 @@
 			padding-left: 0;
 
 			&:before {
-				@include iconbefore("\e00a");
+				@include woocommerce-icon-before("\e00a");
 			}
 
 			.count {

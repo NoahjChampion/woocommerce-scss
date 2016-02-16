@@ -1,6 +1,6 @@
 // Utilities
 //------------------------------------------------------------------------------
-@mixin clearfix() {
+@mixin woocommerce-clearfix() {
 	*zoom: 1;
 
 	&:before,
@@ -22,16 +22,16 @@
 
 // Objects
 //------------------------------------------------------------------------------
-@mixin menu() {
-	@include clearfix();
+@mixin woocommerce-menu() {
+	@include woocommerce-clearfix();
 
 	li {
 		display: inline-block;
 	}
 }
 
-@mixin mediaright() {
-	@include clearfix();
+@mixin woocommerce-media-right() {
+	@include woocommerce-clearfix();
 
 	img {
 		float: right;
@@ -39,8 +39,8 @@
 	}
 }
 
-@mixin medialeft() {
-	@include clearfix();
+@mixin woocommerce-media-left() {
+	@include woocommerce-clearfix();
 
 	img {
 		float: right;
@@ -48,7 +48,7 @@
 	}
 }
 
-@mixin ir() {
+@mixin woocommerce-ir() {
 	display: block;
 	text-indent: -9999px;
 	position: relative;
@@ -56,7 +56,7 @@
 	width: 1em;
 }
 
-@mixin icon($glyph: "\e001") {
+@mixin woocommerce-icon($glyph: "\e001") {
 	font-family: "WooCommerce";
 	speak: none;
 	font-weight: normal;
@@ -75,7 +75,7 @@
 	content: $glyph;
 }
 
-@mixin iconbefore($glyph: "\e001") {
+@mixin woocommerce-icon-before($glyph: "\e001") {
 	font-family: "WooCommerce";
 	speak: none;
 	font-weight: normal;
@@ -88,7 +88,7 @@
 	text-decoration: none;
 }
 
-@mixin iconafter($glyph: "\e001") {
+@mixin woocommerce-icon-after($glyph: "\e001") {
 	font-family: "WooCommerce";
 	speak: none;
 	font-weight: normal;
@@ -101,7 +101,7 @@
 	text-decoration: none;
 }
 
-@mixin loader() {
+@mixin woocommerce-loader() {
 	&::before {
 		@include animation(spin 1s ease-in-out infinite);
 		height: 1em;

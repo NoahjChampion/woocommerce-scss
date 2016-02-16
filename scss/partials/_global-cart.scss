@@ -58,7 +58,7 @@
 
 			.shipping-calculator-button {
 				&:after {
-					@include iconafter("\e019");
+					@include woocommerce-icon-after("\e019");
 				}
 			}
 		}

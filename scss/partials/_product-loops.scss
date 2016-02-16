@@ -123,7 +123,7 @@ ul.products {
 
 .products ul,
 ul.products {
-	@include clearfix();
+	@include woocommerce-clearfix();
 	margin: 0 0 1em;
 	padding: 0;
 	list-style: none outside;

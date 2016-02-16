@@ -37,7 +37,7 @@
 }
 
 .woocommerce-product-rating {
-	@include clearfix();
+	@include woocommerce-clearfix();
 	line-height: 2;
 	display: block;
 
@@ -63,7 +63,7 @@
 
 #review_form {
 	#respond {
-		@include clearfix();
+		@include woocommerce-clearfix();
 		position: static;
 		margin: 0;
 		width: auto;

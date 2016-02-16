@@ -74,7 +74,7 @@ table.cart,
 ul.cart_list,
 ul.product_list_widget {
 	li {
-		@include mediaright();
+		@include woocommerce-media-right();
 	}
 }
 
@@ -87,7 +87,7 @@ ul.product_list_widget {
 	li {
 		padding: 4px 0;
 		margin: 0;
-		@include clearfix();
+		@include woocommerce-clearfix();
 		list-style: none;
 
 		a {
@@ -104,7 +104,7 @@ ul.product_list_widget {
 		}
 
 		dl {
-			@include clearfix();
+			@include woocommerce-clearfix();
 			margin: 0;
 			padding-left: 1em;
 			border-left: 2px solid rgba($off-black, 0.1);
@@ -165,6 +165,6 @@ ul.product_list_widget {
 	}
 
 	.buttons {
-		@include clearfix();
+		@include woocommerce-clearfix();
 	}
 }

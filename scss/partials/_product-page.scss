@@ -8,7 +8,7 @@ div.product,
 	}
 
 	div.thumbnails {
-		@include clearfix();
+		@include woocommerce-clearfix();
 
 		@include woocommerce-desktop-screen() {
 
@@ -75,14 +75,14 @@ div.product,
 		clear: both;
 
 		ul.tabs {
-			@include menu();
+			@include woocommerce-menu();
 		}
 	}
 
 	#reviews {
 
 		.comment {
-			@include mediaright();
+			@include woocommerce-media-right();
 		}
 	}
 }
@@ -263,12 +263,12 @@ div.product {
 	}
 
 	p.cart {
-		@include clearfix();
+		@include woocommerce-clearfix();
 		margin-bottom: 2em;
 	}
 
 	form.cart {
-		@include clearfix();
+		@include woocommerce-clearfix();
 		margin-bottom: 2em;
 
 		div.quantity {

@@ -8,7 +8,7 @@
 		list-style: none outside;
 
 		li {
-			@include clearfix();
+			@include woocommerce-clearfix();
 			padding: 0 0 1px;
 			list-style: none;
 
@@ -21,7 +21,7 @@
 		li.chosen {
 			a {
 				&:before {
-					@include iconbefore("\e013");
+					@include woocommerce-icon-before("\e013");
 					color: $woocommerce-red;
 				}
 			}
@@ -47,7 +47,7 @@
 				text-decoration: none;
 
 				&:before {
-					@include iconbefore("\e013");
+					@include woocommerce-icon-before("\e013");
 					color: $woocommerce-red;
 				}
 			}
@@ -143,7 +143,7 @@
 		list-style: none outside;
 
 		li {
-			@include clearfix();
+			@include woocommerce-clearfix();
 			padding: 0 0 1px;
 			list-style: none;
 
@@ -161,7 +161,7 @@
 		li.chosen {
 			a {
 				&::before {
-					@include iconbefore("\e013");
+					@include woocommerce-icon-before("\e013");
 					color: $woocommerce-red;
 				}
 			}

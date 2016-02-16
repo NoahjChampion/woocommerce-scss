@@ -101,7 +101,7 @@ table.my_account_orders {
 td.product-name {
 	dl.variation {
 		margin: .25em 0;
-		@include clearfix();
+		@include woocommerce-clearfix();
 
 		dt,
 		dd {

@@ -1,7 +1,7 @@
 // Orders
 //---------------------------------------------
 .order_details {
-	@include clearfix();
+	@include woocommerce-clearfix();
 	margin: 0 0 1.5em;
 	list-style: none;
 

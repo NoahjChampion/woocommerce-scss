@@ -31,7 +31,7 @@
 	#comments {
 
 		.add_review {
-			@include clearfix();
+			@include woocommerce-clearfix();
 		}
 
 		h2 {
@@ -39,7 +39,7 @@
 		}
 
 		ol.commentlist {
-			@include clearfix();
+			@include woocommerce-clearfix();
 			margin: 0;
 			width: 100%;
 			background: none;
@@ -72,7 +72,7 @@
 				}
 
 				.comment-text {
-					@include clearfix();
+					@include woocommerce-clearfix();
 					margin: 0 0 0 50px;
 					border: 1px solid darken($woocommerce-secondary, 3%);
 					border-radius: 4px;

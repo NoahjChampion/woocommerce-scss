@@ -38,7 +38,7 @@
 		border-radius: 5px;
 
 		ul.payment_methods {
-			@include clearfix();
+			@include woocommerce-clearfix();
 			text-align: left;
 			padding: 1em;
 			border-bottom: 1px solid $woocommerce-base-border-color;
