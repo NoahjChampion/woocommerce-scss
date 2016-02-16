@@ -103,7 +103,7 @@
 
 @mixin woocommerce-loader() {
 	&::before {
-		@include animation(spin 1s ease-in-out infinite);
+		animation: spin 1s ease-in-out infinite;
 		height: 1em;
 		width: 1em;
 		display: block;
