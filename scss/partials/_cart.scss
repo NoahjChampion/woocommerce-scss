@@ -26,7 +26,7 @@ table.cart,
 .cart-collaterals {
 	@include full();
 
-	@include min-screen($woocommerce-desktop-screen) {
+	@include woocommerce-desktop-screen {
 		.related {
 			@include span(1 of 3);
 		}
@@ -46,7 +46,7 @@ table.cart,
 
 	.shipping_calculator {
 
-		@include min-screen($woocommerce-desktop-screen) {
+		@include woocommerce-desktop-screen {
 			@include span(last 1 of 2);
 
 			.col2-set {
@@ -63,7 +63,7 @@ table.cart,
 	}
 
 	.cart_totals {
-		@include min-screen($woocommerce-desktop-screen) {
+		@include woocommerce-desktop-screen {
 			@include span(last 1 of 2);
 		}
 	}

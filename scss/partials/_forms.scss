@@ -25,13 +25,13 @@ form {
 
 	.form-row-first,
 	.form-row-last {
-		@include min-screen($woocommerce-desktop-screen) {
+		@include woocommerce-desktop-screen {
 			@include span(1 of 2);
 		}
 	}
 
 	.form-row-last {
-		@include min-screen($woocommerce-desktop-screen) {
+		@include woocommerce-desktop-screen {
 			@include last();
 		}
 	}

@@ -3,7 +3,7 @@
 .col2-set {
 	@include full();
 
-	@include min-screen($woocommerce-desktop-screen) {
+	@include woocommerce-desktop-screen {
 
 		.col-1 {
 			@include span(12 of 25);
