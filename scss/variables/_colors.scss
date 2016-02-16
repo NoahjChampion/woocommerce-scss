@@ -28,6 +28,8 @@ $woocommerce-primary:        $woocommerce !default;
 $woocommerce-primary-text:   $woocommerce-white !default;
 $woocommerce-secondary:      $woocommerce-light-fog !default;
 $woocommerce-secondary-text: $woocommerce-dark-gray !default;
+$woocommerce-button-bg-color: $woocommerce-primary;
+$woocommerce-button-color:    $woocommerce-primary-text !default;
 
 // Message Colors
 $woocommerce-message-border-color:       $woocommerce-green !default;
