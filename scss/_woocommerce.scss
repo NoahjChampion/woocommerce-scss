@@ -24,16 +24,16 @@ WooCommerce General Styles
 --------------------------------------------- */
 .woocommerce,
 .woocommerce-page {
-	@import "partials/general";
+	@import "partials/layout";
+	@import "partials/common";
+	@import "partials/buttons";
+	@import "partials/forms";
+	@import "partials/tables";
 	@import "partials/product-page";
 	@import "partials/product-loops";
 	@import "partials/cart";
-	@import "partials/forms";
-	@import "partials/main-woocommerce";
-	@import "partials/buttons";
 	@import "partials/reviews";
 	@import "partials/star-ratings";
-	@import "partials/tables";
 	@import "partials/orders";
 	@import "partials/widgets";
 }

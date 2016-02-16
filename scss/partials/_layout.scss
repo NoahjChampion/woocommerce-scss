@@ -1,0 +1,339 @@
+// General Layout
+//---------------------------------------------
+.col2-set {
+	@include full();
+
+	@include woocommerce-desktop-screen() {
+
+		.col-1 {
+			@include span(12 of 25);
+		}
+
+		.col-2 {
+			@include span(last 12 of 25);
+		}
+	}
+}
+
+// Forms Layout
+//---------------------------------------------
+form {
+
+	.form-row {
+		@include full();
+
+		label {
+			display: block;
+
+			&.checkbox {
+				display: inline;
+			}
+		}
+
+		select {
+			width: 100%;
+		}
+
+		.input-text {
+			box-sizing: border-box;
+			width: 100%;
+		}
+	}
+
+	.form-row-first,
+	.form-row-last {
+		@include woocommerce-desktop-screen() {
+			@include span(1 of 2);
+		}
+	}
+
+	.form-row-last {
+		@include woocommerce-desktop-screen() {
+			@include last();
+		}
+	}
+
+	.form-row-wide {
+		@include full();
+	}
+}
+
+#payment {
+	.form-row {
+		select {
+			width: auto;
+		}
+	}
+
+	.wc-terms-and-conditions, .terms {
+		text-align: left;
+		padding: 0 16px 0 0;
+		float:left;
+	}
+
+	#place_order {
+		float: right;
+	}
+}
+
+// Product Loops Layout
+//---------------------------------------------
+ul.products {
+	@include full();
+
+	li {
+		&.product {
+
+			@include woocommerce-desktop-screen() {
+				@include span(1 of 4);
+				float: left;
+				margin: 0 3.8% 2.992em 0;
+				padding: 0;
+				position: relative;
+			}
+		}
+
+		&.first {
+			clear: both;
+		}
+
+		&.last {
+			@include last();
+		}
+	}
+}
+
+&.columns-1 {
+
+	ul.products {
+
+		li.product {
+			@include full();
+		}
+	}
+}
+
+&.columns-2 {
+
+	ul.products {
+
+		li.product {
+			@include woocommerce-desktop-screen() {
+				@include span(12 of 25);
+			}
+		}
+	}
+}
+
+&.columns-3 {
+
+	ul.products {
+
+		li.product {
+			@include woocommerce-desktop-screen() {
+				@include span(1 of 3);
+			}
+		}
+	}
+}
+
+&.columns-5 {
+
+	ul.products {
+
+		li.product {
+			@include woocommerce-desktop-screen() {
+				@include span(1 of 5);
+			}
+		}
+	}
+}
+
+&.columns-6 {
+
+	ul.products {
+
+		li.product {
+			@include woocommerce-desktop-screen() {
+				@include span(1 of 6);
+			}
+		}
+	}
+}
+
+.woocommerce-result-count {
+	float: left;
+}
+
+.woocommerce-ordering {
+	float: right;
+}
+
+// Product Page Layout
+//---------------------------------------------
+div.product,
+#content div.product {
+
+	div.images {
+		@include span(12 of 25);
+	}
+
+	div.thumbnails {
+		@include woocommerce-clearfix();
+
+		@include woocommerce-desktop-screen() {
+
+			a {
+				@include span(1 of 3);
+				margin-bottom: 16px;
+
+				&.first {
+					clear: both;
+				}
+
+				&.last {
+					@include last();
+				}
+			}
+		}
+
+		&.columns-1 {
+
+			a {
+				@include full();
+			}
+		}
+
+		&.columns-2 {
+
+			@include woocommerce-desktop-screen() {
+
+				a {
+					width: percentage(12 / 25);
+				}
+			}
+		}
+
+		&.columns-4 {
+
+			@include woocommerce-desktop-screen() {
+
+				a {
+					@include span(1 of 4);
+				}
+			}
+		}
+
+		&.columns-5 {
+
+			@include woocommerce-desktop-screen() {
+
+				a {
+					@include span(1 of 5);
+				}
+			}
+		}
+	}
+
+	div.summary {
+
+		@include woocommerce-desktop-screen() {
+			@include span(last 12 of 25);
+		}
+	}
+
+	.woocommerce-tabs {
+		clear: both;
+
+		ul.tabs {
+			@include woocommerce-menu();
+		}
+	}
+
+	#reviews {
+
+		.comment {
+			@include woocommerce-media-right();
+		}
+	}
+}
+
+// Cart Page Layout
+//---------------------------------------------
+table.cart,
+#content table.cart {
+	img {
+		height: auto;
+	}
+
+	td.actions {
+		text-align: right;
+
+		.input-text {
+			width: 80px;
+		}
+
+		.coupon {
+			float: left;
+
+			label {
+				display: none;
+			}
+		}
+	}
+}
+
+.cart-collaterals {
+	@include full();
+
+	@include woocommerce-desktop-screen() {
+		.related {
+			@include span(1 of 3);
+		}
+
+		.cross-sells {
+			@include span(1 of 2);
+
+			ul.products {
+				float: none;
+
+				li {
+					@include span(1 of 2);
+				}
+			}
+		}
+	}
+
+	.shipping_calculator {
+
+		@include woocommerce-desktop-screen() {
+			@include span(last 1 of 2);
+
+			.col2-set {
+				.col-1,
+				.col-2 {
+					@include span(1 of 2);
+				}
+
+				.col-2 {
+					@include last();
+				}
+			}
+		}
+	}
+
+	.cart_totals {
+		@include woocommerce-desktop-screen() {
+			@include span(last 1 of 2);
+		}
+	}
+}
+
+// Cart Sidebar Layout
+//---------------------------------------------
+ul.cart_list,
+ul.product_list_widget {
+	li {
+		@include woocommerce-media-right();
+	}
+}
