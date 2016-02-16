@@ -86,7 +86,6 @@ ul.products {
 
 			@include woocommerce-desktop-screen() {
 				@include span(1 of 4);
-				float: left;
 				margin: 0 3.8% 2.992em 0;
 				padding: 0;
 				position: relative;
