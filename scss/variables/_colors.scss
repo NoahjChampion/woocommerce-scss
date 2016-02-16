@@ -3,23 +3,25 @@
 $woocommerce:           #a46497 !default;
 $woocommerce-white:     #fff !default;
 $woocommerce-light-fog: #ebe9eb !default;
-$woocommerce-black:     #000 !default;
+$woocommerce-fog:       #d3ced3 !default;
 $woocommerce-dark-gray: #515151 !default;
 $woocommerce-gray:      #777 !default;
-$woocommerce-green:     #77a464 !default;
-$woocommerce-red:       #9e363b !default;
-$woocommerce-orange:    #f89460 !default;
-$woocommerce-blue:      #3a7da3 !default;
+$woocommerce-black:     #000 !default;
+$woocommerce-green:     #85ad74 !default;
+$woocommerce-red:       #b13c42 !default;
+$woocommerce-orange:    #f78a51 !default;
+$woocommerce-yellow:    #ffce4d !default;
+$woocommerce-blue:      #418bb6 !default;
 
 // Password Form Colors
-$woocommerce-pw-bg-color-strong:     #c1e1b9 !default;
-$woocommerce-pw-border-color-strong: darken($woocommerce-pw-bg-color-strong, 15) !default;
-$woocommerce-pw-bg-color-short:      #f1adad !default;
-$woocommerce-pw-border-color-short:  darken($woocommerce-pw-bg-color-short, 15) !default;
-$woocommerce-pw-bg-color-bad:        #fbc5a9 !default;
-$woocommerce-pw-border-color-bad:    darken($woocommerce-pw-bg-color-bad, 15) !default;
-$woocommerce-pw-bg-color-good:       #ffe399 !default;
-$woocommerce-pw-border-color-good:   darken($woocommerce-pw-bg-color-good, 15) !default;
+$woocommerce-pw-bg-color-strong:     lighten($woocommerce-green, 15) !default;
+$woocommerce-pw-border-color-strong: $woocommerce-green !default;
+$woocommerce-pw-bg-color-short:      lighten($woocommerce-red, 15) !default;
+$woocommerce-pw-border-color-short:  $woocommerce-red !default;
+$woocommerce-pw-bg-color-bad:        lighten($woocommerce-orange, 15) !default;
+$woocommerce-pw-border-color-bad:    $woocommerce-orange !default;
+$woocommerce-pw-bg-color-good:       lighten($woocommerce-yellow, 15) !default;
+$woocommerce-pw-border-color-good:   $woocommerce-yellow !default;
 
 // Button Colors
 $woocommerce-primary:        $woocommerce !default;
@@ -34,6 +36,10 @@ $woocommerce-message-info-border-color:  $woocommerce-blue !default;
 $woocommerce-message-info-color:         $woocommerce-blue !default;
 $woocommerce-message-error-border-color: $woocommerce-red !default;
 $woocommerce-message-error-color:        $woocommerce-red !default;
+
+$woocommerce-coupon-border-color: $woocommerce-fog !default;
+$woocommerce-star-rating-color:   $woocommerce-fog !default;
+$woocommerce-order-details-border-color: $woocommerce-fog !default;
 
 // Content Colors
 $woocommerce-highlight:      $woocommerce-green !default;

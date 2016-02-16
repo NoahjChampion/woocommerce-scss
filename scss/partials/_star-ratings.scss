@@ -12,7 +12,7 @@
 
 	&::before {
 		content: "\73\73\73\73\73";
-		color: darken($woocommerce-secondary, 10%);
+		color: $woocommerce-star-rating-color;
 		float: left;
 		top: 0;
 		left: 0;

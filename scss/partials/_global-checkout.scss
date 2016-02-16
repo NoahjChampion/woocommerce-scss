@@ -17,7 +17,7 @@
 		}
 
 		.create-account small {
-			font-size: $small-font-size;
+			font-size: $woocommerce-small-font-size;
 			color: $woocommerce-sub-text;
 			font-weight: normal;
 		}
@@ -41,7 +41,7 @@
 			@include clearfix();
 			text-align: left;
 			padding: 1em;
-			border-bottom: 1px solid darken($woocommerce-secondary, 10%);
+			border-bottom: 1px solid $woocommerce-base-border-color;
 			margin: 0;
 			list-style: none outside;
 

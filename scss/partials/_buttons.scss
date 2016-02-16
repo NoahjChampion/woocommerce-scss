@@ -4,6 +4,26 @@ a.button,
 button.button,
 input.button,
 #respond input#submit {
+	font-size: 100%;
+	margin: 0;
+	line-height: 1;
+	cursor: pointer;
+	position: relative;
+	font-family: inherit;
+	text-decoration: none;
+	overflow: visible;
+	padding: .618em 1em;
+	font-weight: 700;
+	border-radius: 3px;
+	left: auto;
+	background-color: $woocommerce-button-bg-color;
+	color: $woocommerce-button-color;
+	border: 0;
+	white-space: nowrap;
+	display: inline-block;
+	background-image: none;
+	box-shadow: none;
+	text-shadow: none;
 
 	&.loading {
 		opacity: 0.25;
@@ -31,21 +51,38 @@ input.button,
 		}
 	}
 
-	&:hover {
-		background-color: $woocommerce-secondary - #111;
+	&:hover,
+	&:focus {
+		background-color: $woocommerce-button-bg-color-hover;
 		text-decoration: none;
 		background-image: none;
-		color: $woocommerce-secondary-text;
+		color: $woocommerce-button-color-hover;
+	}
+
+	&.disabled,
+	&:disabled,
+	&:disabled[disabled],
+	&.disabled:hover,
+	&:disabled:hover,
+	&:disabled[disabled]:hover,
+	&.disabled:focus,
+	&:disabled:focus,
+	&:disabled[disabled]:focus {
+		background-color: inherit;
+		color: inherit;
+		cursor: not-allowed;
+		opacity: 0.5;
 	}
 
 	&.alt {
-		background-color: $woocommerce-primary;
-		color: $woocommerce-primary-text;
+		background-color: $woocommerce-alt-button-bg-color;
+		color: $woocommerce-alt-button-color;
 		-webkit-font-smoothing: antialiased;
 
-		&:hover {
-			background-color: $woocommerce-primary - #111;
-			color: $woocommerce-primary-text;
+		&:hover,
+		&:focus {
+			background-color: $woocommerce-alt-button-bg-color-hover;
+			color: $woocommerce-alt-button-color-hover;
 		}
 
 		&.disabled,
@@ -53,22 +90,12 @@ input.button,
 		&:disabled[disabled],
 		&.disabled:hover,
 		&:disabled:hover,
-		&:disabled[disabled]:hover {
-			background-color: $woocommerce-primary;
-			color: $woocommerce-primary-text;
-		}
-	}
-
-	&:disabled,
-	&.disabled,
-	&:disabled[disabled] {
-		color: inherit;
-		cursor: not-allowed;
-		opacity: 0.5;
-
-		&:hover {
+		&:disabled[disabled]:hover,
+		&.disabled:focus,
+		&:disabled:focus,
+		&:disabled[disabled]:focus {
+			background-color: inherit;
 			color: inherit;
-			background-color: $woocommerce-secondary;
 		}
 	}
 }

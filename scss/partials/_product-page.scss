@@ -99,7 +99,7 @@ div.product {
 
 	span.price,
 	p.price {
-		color: $woocommerce-highlight;
+		color: $woocommerce-price-color;
 		font-size: 1.25em;
 
 		ins {
@@ -117,11 +117,11 @@ div.product {
 	}
 
 	.stock {
-		color: $woocommerce-highlight;
+		color: $woocommerce-stock-color;
 	}
 
 	.out-of-stock {
-		color: $woocommerce-red;
+		color: $woocommerce-out-of-stock-color;
 	}
 
 	.woocommerce-product-rating {
@@ -179,8 +179,8 @@ div.product {
 			position: relative;
 
 			li {
-				border: 1px solid darken( $woocommerce-secondary, 10% );
-				background-color: $woocommerce-secondary;
+				border: 1px solid $woocommerce-tabs-border-color;
+				background-color: $woocommerce-tabs-bg-color;
 				display: inline-block;
 				position: relative;
 				z-index: 0;
@@ -192,12 +192,12 @@ div.product {
 					display: inline-block;
 					padding: .5em 0;
 					font-weight: 700;
-					color: $woocommerce-secondary-text;
+					color: $woocommerce-tabs-link-color;
 					text-decoration: none;
 
 					&:hover {
 						text-decoration: none;
-						color: lighten( $woocommerce-secondary-text, 10% );
+						color: $woocommerce-tabs-link-color-hover;
 					}
 				}
 
@@ -263,13 +263,13 @@ div.product {
 	}
 
 	p.cart {
-		margin-bottom: 2em;
 		@include clearfix();
+		margin-bottom: 2em;
 	}
 
 	form.cart {
-		margin-bottom: 2em;
 		@include clearfix();
+		margin-bottom: 2em;
 
 		div.quantity {
 			float: left;
@@ -370,8 +370,8 @@ span.onsale {
 	left: -.5em;
 	margin: 0;
 	border-radius: 100%;
-	background-color: $woocommerce-highlight;
-	color: $woocommerce-highlight-text;
+	background-color: $woocommerce-on-sale-bg-color;
+	color: $woocommerce-on-sale-color;
 	font-size: .857em;
 	-webkit-font-smoothing: antialiased;
 }

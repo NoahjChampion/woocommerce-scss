@@ -174,7 +174,7 @@ ul.products {
 		}
 
 		.price {
-			color: $woocommerce-highlight;
+			color: $woocommerce-price-color;
 			display: block;
 			font-weight: normal;
 			margin-bottom: 0.5em;
@@ -195,7 +195,7 @@ ul.products {
 				font-size: 0.67em;
 				margin: -2px 0 0;
 				text-transform: uppercase;
-				color: rgba(desaturate($woocommerce-highlight, 75%), 0.5);
+				color: $woocommerce-price-from-color;
 			}
 		}
 	}
@@ -221,12 +221,12 @@ nav.woocommerce-pagination {
 		white-space: nowrap;
 		padding: 0;
 		clear: both;
-		border: 1px solid darken( $woocommerce-secondary, 10% );
+		border: 1px solid $woocommerce-pagination-border-color;
 		border-right: 0;
 		margin: 1px;
 
 		li {
-			border-right: 1px solid darken( $woocommerce-secondary, 10% );
+			border-right: 1px solid $woocommerce-pagination-link-border-color;
 			padding: 0;
 			margin: 0;
 			float: left;
@@ -249,8 +249,8 @@ nav.woocommerce-pagination {
 			span.current,
 			a:hover,
 			a:focus {
-				background: $woocommerce-secondary;
-				color: darken( $woocommerce-secondary, 40% );
+				background: $woocommerce-pagination-bg-color;
+				color: $woocommerce-pagination-color;
 			}
 		}
 	}

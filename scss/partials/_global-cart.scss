@@ -19,7 +19,7 @@
 				.input-text {
 					float: left;
 					box-sizing: border-box;
-					border: 1px solid darken($woocommerce-secondary, 10%);
+					border: 1px solid $woocommerce-coupon-border-color;
 					padding: 6px 6px 5px;
 					margin: 0 4px 0 0;
 					outline: 0;

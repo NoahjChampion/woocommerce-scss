@@ -11,7 +11,7 @@
 		text-transform: uppercase;
 		font-size: 0.715em;
 		line-height: 1;
-		border-right: 1px dashed darken($woocommerce-secondary, 10%);
+		border-right: 1px dashed $woocommerce-order-details-border-color;
 		padding-right: 2em;
 		margin-left: 0;
 		padding-left: 0;
