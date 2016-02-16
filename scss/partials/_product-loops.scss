@@ -6,7 +6,7 @@ ul.products {
 	li {
 		&.product {
 
-			@include min-screen($medium-screen) {
+			@include min-screen($woocommerce-desktop-screen) {
 				@include span(1 of 4);
 				float: left;
 				margin: 0 3.8% 2.992em 0;
@@ -40,7 +40,7 @@ ul.products {
 	ul.products {
 
 		li.product {
-			@include min-screen($medium-screen) {
+			@include min-screen($woocommerce-desktop-screen) {
 				@include span(12 of 25);
 			}
 		}
@@ -52,7 +52,7 @@ ul.products {
 	ul.products {
 
 		li.product {
-			@include min-screen($medium-screen) {
+			@include min-screen($woocommerce-desktop-screen) {
 				@include span(1 of 3);
 			}
 		}
@@ -64,7 +64,7 @@ ul.products {
 	ul.products {
 
 		li.product {
-			@include min-screen($medium-screen) {
+			@include min-screen($woocommerce-desktop-screen) {
 				@include span(1 of 5);
 			}
 		}
@@ -76,7 +76,7 @@ ul.products {
 	ul.products {
 
 		li.product {
-			@include min-screen($medium-screen) {
+			@include min-screen($woocommerce-desktop-screen) {
 				@include span(1 of 6);
 			}
 		}
