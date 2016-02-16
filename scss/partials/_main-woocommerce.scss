@@ -63,28 +63,28 @@ a.remove {
 }
 
 .woocommerce-message {
-	border-top-color: #8fae1b;
+	border-top-color: $woocommerce-message-border-color;
 
 	&:before {
 		content: "\e015";
-		color: #8fae1b;
+		color: $woocommerce-message-color;
 	}
 }
 
 .woocommerce-info {
-	border-top-color: #1e85be;
+	border-top-color: $woocommerce-message-info-border-color;
 
 	&:before {
-		color: #1e85be;
+		color: $woocommerce-message-info-color;
 	}
 }
 
 .woocommerce-error {
-	border-top-color: $woocommerce-red;
+	border-top-color: $woocommerce-message-error-border-color;
 
 	&:before {
 		content: "\e016";
-		color: $woocommerce-red;
+		border-top-color: $woocommerce-message-error-color;
 	}
 }
 

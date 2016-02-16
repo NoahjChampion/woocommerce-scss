@@ -5,10 +5,10 @@
 $woocommerce:        #a46497 !default;
 $woocommerce-white:  #fff !default;
 $woocommerce-black:  #000 !default;
-$woocommerce-green:  #7ad03a !default;
-$woocommerce-red:    #b81c23 !default;
-$woocommerce-orange: #ffba00 !default;
-$woocommerce-blue:   #2ea2cc !default;
+$woocommerce-green:  #77a464 !default;
+$woocommerce-red:    #9e363b !default;
+$woocommerce-orange: #f89460 !default;
+$woocommerce-blue:   #3a7da3 !default;
 
 // Password Form Colors
 $woocommerce-pw-bg-color-strong:     #c1e1b9 !default;
@@ -21,17 +21,25 @@ $woocommerce-pw-bg-color-good:       #ffe399 !default;
 $woocommerce-pw-border-color-good:   darken($woocommerce-pw-bg-color-good, 15) !default;
 
 // Button Colors
-$woocommerce-primary:        #a46497 !default;
+$woocommerce-primary:        $woocommerce !default;
 $woocommerce-primary-text:   desaturate(lighten($woocommerce-primary, 50%), 18%) !default;
 $woocommerce-secondary:      desaturate(lighten($woocommerce-primary, 40%), 21%) !default;
 $woocommerce-secondary-text: desaturate(darken($woocommerce-secondary, 60%), 21%) !default;
 
+// Message Colors
+$woocommerce-message-border-color:       $woocommerce-green !default;
+$woocommerce-message-color:              $woocommerce-green !default;
+$woocommerce-message-info-border-color:  $woocommerce-blue !default;
+$woocommerce-message-info-color:         $woocommerce-blue !default;
+$woocommerce-message-error-border-color: $woocommerce-red !default;
+$woocommerce-message-error-color:        $woocommerce-red !default;
+
 // Prices, In stock labels, sales flash
-$woocommerce-highlight: adjust-hue($woocommerce-primary, 150deg) !default;
+$woocommerce-highlight: $woocommerce-green !default;
 // Text on highlight colour bg
 $woocommerce-highlight-text: desaturate(lighten($woocommerce-highlight, 50%), 18%) !default;
 
 // Content BG - Tabs (active state)
-$woocommerce-content-bg: #fff !default;
+$woocommerce-content-bg: $woocommerce-white !default;
 // Small, breadcrumbs etc
 $woocommerce-sub-text: #777 !default;
