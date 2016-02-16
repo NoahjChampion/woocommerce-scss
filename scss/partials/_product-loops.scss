@@ -3,23 +3,25 @@
 ul.products {
 	@include full();
 
-	li.product {
+	li {
+		&.product {
 
-		@include min-screen($medium-screen) {
-			@include span(1 of 4);
-			float: left;
-			margin: 0 3.8% 2.992em 0;
-			padding: 0;
-			position: relative;
+			@include min-screen($medium-screen) {
+				@include span(1 of 4);
+				float: left;
+				margin: 0 3.8% 2.992em 0;
+				padding: 0;
+				position: relative;
+			}
 		}
-	}
 
-	li.first {
-		clear: both;
-	}
+		&.first {
+			clear: both;
+		}
 
-	li.last {
-		@include last();
+		&.last {
+			@include last();
+		}
 	}
 }
 
@@ -84,6 +86,7 @@ ul.products {
 .woocommerce-result-count {
 	float: left;
 }
+
 .woocommerce-ordering {
 	float: right;
 }
@@ -120,11 +123,11 @@ ul.products {
 
 .products ul,
 ul.products {
+	@include clearfix();
 	margin: 0 0 1em;
 	padding: 0;
 	list-style: none outside;
 	clear: both;
-	@include clearfix();
 
 	li {
 		list-style: none outside;
