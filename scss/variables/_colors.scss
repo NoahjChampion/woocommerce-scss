@@ -3,19 +3,27 @@
  */
 
 $woocommerce:        #a46497 !default;
+$woocommerce-white:  #fff !default;
+$woocommerce-black:  #000 !default;
 $woocommerce-green:  #7ad03a !default;
-$woocommerce-red:    #a00 !default;
+$woocommerce-red:    #b81c23 !default;
 $woocommerce-orange: #ffba00 !default;
 $woocommerce-blue:   #2ea2cc !default;
 
-// Primary colour for buttons (alt)
-$woocommerce-primary: #a46497 !default;
- // Text on primary colour bg
-$woocommerce-primary-text: desaturate(lighten($woocommerce-primary, 50%), 18%) !default;
+// Password Form Colors
+$woocommerce-pw-bg-color-strong:     #c1e1b9 !default;
+$woocommerce-pw-border-color-strong: darken($woocommerce-pw-bg-color-strong, 15) !default;
+$woocommerce-pw-bg-color-short:      #f1adad !default;
+$woocommerce-pw-border-color-short:  darken($woocommerce-pw-bg-color-short, 15) !default;
+$woocommerce-pw-bg-color-bad:        #fbc5a9 !default;
+$woocommerce-pw-border-color-bad:    darken($woocommerce-pw-bg-color-bad, 15) !default;
+$woocommerce-pw-bg-color-good:       #ffe399 !default;
+$woocommerce-pw-border-color-good:   darken($woocommerce-pw-bg-color-good, 15) !default;
 
-// Secondary buttons
-$woocommerce-secondary: desaturate(lighten($woocommerce-primary, 40%), 21%) !default;
-// Text on secondary colour bg
+// Button Colors
+$woocommerce-primary:        #a46497 !default;
+$woocommerce-primary-text:   desaturate(lighten($woocommerce-primary, 50%), 18%) !default;
+$woocommerce-secondary:      desaturate(lighten($woocommerce-primary, 40%), 21%) !default;
 $woocommerce-secondary-text: desaturate(darken($woocommerce-secondary, 60%), 21%) !default;
 
 // Prices, In stock labels, sales flash

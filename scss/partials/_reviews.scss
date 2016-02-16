@@ -4,13 +4,13 @@
 
 	h2 small {
 		float: right;
-		color: $subtext;
+		color: $woocommerce-sub-text;
 		font-size: 15px;
 		margin: 10px 0 0;
 
 		a {
 			text-decoration: none;
-			color: $subtext;
+			color: $woocommerce-sub-text;
 		}
 	}
 
@@ -53,7 +53,7 @@
 				background: 0;
 
 				.meta {
-					color: $subtext;
+					color: $woocommerce-sub-text;
 					font-size: 0.75em;
 				}
 

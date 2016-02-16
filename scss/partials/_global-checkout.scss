@@ -18,7 +18,7 @@
 
 		.create-account small {
 			font-size: $small-font-size;
-			color: $subtext;
+			color: $woocommerce-sub-text;
 			font-weight: normal;
 		}
 
@@ -84,7 +84,7 @@
 			border-radius: 2px;
 			line-height: 1.5;
 			background-color: darken($woocommerce-secondary, 5%);
-			color: $woocommerce-secondarytext;
+			color: $woocommerce-secondary-text;
 
 			input.input-text, textarea {
 				border-color: darken($woocommerce-secondary, 15%);
@@ -145,7 +145,7 @@
 
 			span.help {
 				font-size: 0.857em;
-				color: $subtext;
+				color: $woocommerce-sub-text;
 				font-weight: normal;
 			}
 
