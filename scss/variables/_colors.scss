@@ -1,50 +1,54 @@
 // WooCommerce Color Variables
 //------------------------------------------------------------------------------
-$woocommerce:           #a46497 !default;
-$woocommerce-white:     #fff !default;
-$woocommerce-light-fog: #ebe9eb !default;
-$woocommerce-fog:       #d3ced3 !default;
-$woocommerce-dark-gray: #515151 !default;
-$woocommerce-gray:      #777 !default;
-$woocommerce-black:     #000 !default;
-$woocommerce-green:     #85ad74 !default;
-$woocommerce-red:       #b13c42 !default;
-$woocommerce-orange:    #f78a51 !default;
-$woocommerce-yellow:    #ffce4d !default;
-$woocommerce-blue:      #418bb6 !default;
+$woocommerce:           #a46497;
+$woocommerce-white:     #fff;
+$woocommerce-light-fog: #ebe9eb;
+$woocommerce-fog:       #d3ced3;
+$woocommerce-dark-gray: #515151;
+$woocommerce-gray:      #777;
+$woocommerce-black:     #000;
+$woocommerce-green:     #85ad74;
+$woocommerce-red:       #b13c42;
+$woocommerce-orange:    #f78a51;
+$woocommerce-yellow:    #ffce4d;
+$woocommerce-blue:      #418bb6;
 
 // Password Form Colors
-$woocommerce-pw-bg-color-strong:     lighten($woocommerce-green, 15) !default;
-$woocommerce-pw-border-color-strong: $woocommerce-green !default;
-$woocommerce-pw-bg-color-short:      lighten($woocommerce-red, 15) !default;
-$woocommerce-pw-border-color-short:  $woocommerce-red !default;
-$woocommerce-pw-bg-color-bad:        lighten($woocommerce-orange, 15) !default;
-$woocommerce-pw-border-color-bad:    $woocommerce-orange !default;
-$woocommerce-pw-bg-color-good:       lighten($woocommerce-yellow, 15) !default;
-$woocommerce-pw-border-color-good:   $woocommerce-yellow !default;
+//------------------------------------------------------------------------------
+$woocommerce-pw-bg-color-strong:     lighten($woocommerce-green, 15);
+$woocommerce-pw-border-color-strong: $woocommerce-green;
+$woocommerce-pw-bg-color-short:      lighten($woocommerce-red, 15);
+$woocommerce-pw-border-color-short:  $woocommerce-red;
+$woocommerce-pw-bg-color-bad:        lighten($woocommerce-orange, 15);
+$woocommerce-pw-border-color-bad:    $woocommerce-orange;
+$woocommerce-pw-bg-color-good:       lighten($woocommerce-yellow, 15);
+$woocommerce-pw-border-color-good:   $woocommerce-yellow;
 
 // Button Colors
-$woocommerce-primary:        $woocommerce !default;
-$woocommerce-primary-text:   $woocommerce-white !default;
-$woocommerce-secondary:      $woocommerce-light-fog !default;
-$woocommerce-secondary-text: $woocommerce-dark-gray !default;
+//------------------------------------------------------------------------------
+$woocommerce-primary:         $woocommerce;
+$woocommerce-primary-text:    $woocommerce-white;
+$woocommerce-secondary:       $woocommerce-light-fog;
+$woocommerce-secondary-text:  $woocommerce-dark-gray;
 $woocommerce-button-bg-color: $woocommerce-primary;
-$woocommerce-button-color:    $woocommerce-primary-text !default;
+$woocommerce-button-color:    $woocommerce-primary-text;
 
 // Message Colors
-$woocommerce-message-border-color:       $woocommerce-green !default;
-$woocommerce-message-color:              $woocommerce-green !default;
-$woocommerce-message-info-border-color:  $woocommerce-blue !default;
-$woocommerce-message-info-color:         $woocommerce-blue !default;
-$woocommerce-message-error-border-color: $woocommerce-red !default;
-$woocommerce-message-error-color:        $woocommerce-red !default;
+//------------------------------------------------------------------------------
+$woocommerce-message-border-color:       $woocommerce-green;
+$woocommerce-message-color:              $woocommerce-green;
+$woocommerce-message-info-border-color:  $woocommerce-blue;
+$woocommerce-message-info-color:         $woocommerce-blue;
+$woocommerce-message-error-border-color: $woocommerce-red;
+$woocommerce-message-error-color:        $woocommerce-red;
 
-$woocommerce-coupon-border-color: $woocommerce-fog !default;
-$woocommerce-star-rating-color:   $woocommerce-fog !default;
-$woocommerce-order-details-border-color: $woocommerce-fog !default;
+$woocommerce-coupon-border-color:        $woocommerce-fog;
+$woocommerce-star-rating-color:          $woocommerce-fog;
+$woocommerce-order-details-border-color: $woocommerce-fog;
 
 // Content Colors
-$woocommerce-highlight:      $woocommerce-green !default;
-$woocommerce-highlight-text: $woocommerce-white !default;
-$woocommerce-content-bg:     $woocommerce-white !default;
-$woocommerce-sub-text:       $woocommerce-gray !default;
+//------------------------------------------------------------------------------
+$woocommerce-highlight:      $woocommerce-green;
+$woocommerce-highlight-text: $woocommerce-white;
+$woocommerce-content-bg:     $woocommerce-white;
+$woocommerce-sub-text:       $woocommerce-gray;
