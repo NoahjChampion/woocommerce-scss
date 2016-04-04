@@ -1,17 +1,18 @@
 // WooCommerce Color Variables
 //------------------------------------------------------------------------------
-$woocommerce:           #a46497;
-$woocommerce-white:     #fff;
-$woocommerce-light-fog: #ebe9eb;
-$woocommerce-fog:       #d3ced3;
-$woocommerce-dark-gray: #515151;
-$woocommerce-gray:      #777;
-$woocommerce-black:     #000;
-$woocommerce-green:     #85ad74;
-$woocommerce-red:       #b13c42;
-$woocommerce-orange:    #f78a51;
-$woocommerce-yellow:    #ffce4d;
-$woocommerce-blue:      #418bb6;
+$woocommerce:            #a46497;
+$woocommerce-white:      $white;
+$woocommerce-light-fog:  $light-fog;
+$woocommerce-fog:        $fog;
+$woocommerce-dark-gray:  $dark-gray;
+$woocommerce-gray:       #777;
+$woocommerce-light-gray: $light-gray;
+$woocommerce-black:      #000;
+$woocommerce-green:      #85ad74;
+$woocommerce-red:        #b13c42;
+$woocommerce-orange:     #f78a51;
+$woocommerce-yellow:     #ffce4d;
+$woocommerce-blue:       #418bb6;
 
 // Global Base Colors
 //------------------------------------------------------------------------------
@@ -21,7 +22,7 @@ $woocommerce-price-from-color:      lighten($woocommerce-price-color, 20);
 $woocommerce-stock-color:           $woocommerce-green;
 $woocommerce-out-of-stock-color:    $woocommerce-red;
 $woocommerce-tabs-border-color:     $base-border-color;
-$woocommerce-tabs-bg-color:         $woocommerce-white;
+$woocommerce-tabs-bg-color:         $woocommerce-light-fog;
 $woocommerce-tabs-link-color:       $base-link-color;
 $woocommerce-tabs-link-color-hover: $base-link-color-hover;
 $woocommerce-on-sale-bg-color:      $base-button-background-color;
