@@ -182,7 +182,13 @@ div.product {
 
 	form.cart {
 		@include woocommerce-clearfix();
-		margin-bottom: 2em;
+		align-items: center;
+		display: flex;
+		margin-bottom: $woocommerce-content-margin-small;
+
+		@include min-screen($woocommerce-small-screen) {
+			margin-bottom: $woocommerce-content-margin;
+		}
 
 		div.quantity {
 			float: left;
