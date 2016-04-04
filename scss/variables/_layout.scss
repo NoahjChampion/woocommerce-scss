@@ -1,4 +1,13 @@
 // WooCommerce Layout Variables
 //------------------------------------------------------------------------------
 
-$woocommerce-desktop-screen: 768px;
+$woocommerce-smallest-screen:  $smallest-screen;
+$woocommerce-smaller-screen:   $smaller-screen;
+$woocommerce-small-screen:     $small-screen;
+$woocommerce-medium-screen:    $medium-screen;
+$woocommerce-large-screen:     $large-screen;
+
+// Content Spacing
+//------------------------------------------------------------------------------
+$woocommerce-content-margin:       $content-margin;
+$woocommerce-content-margin-small: $content-margin-small;

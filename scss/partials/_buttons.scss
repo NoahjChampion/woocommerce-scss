@@ -4,60 +4,6 @@ a.button,
 button.button,
 input.button,
 #respond input#submit {
-	font-size: 100%;
-	margin: 0;
-	line-height: 1;
-	cursor: pointer;
-	position: relative;
-	font-family: inherit;
-	text-decoration: none;
-	overflow: visible;
-	padding: .618em 1em;
-	font-weight: 700;
-	border-radius: 3px;
-	left: auto;
-	background-color: $woocommerce-button-bg-color;
-	color: $woocommerce-button-color;
-	border: 0;
-	white-space: nowrap;
-	display: inline-block;
-	background-image: none;
-	box-shadow: none;
-	text-shadow: none;
-
-	&.loading {
-		opacity: 0.25;
-		padding-right: 2.618em;
-
-		&::after {
-			font-family: "WooCommerce";
-			content: "\e01c";
-			vertical-align: top;
-			-webkit-font-smoothing: antialiased;
-			font-weight: 400;
-			position: absolute;
-			top: 0.618em;
-			right: 1em;
-			animation: spin 2s linear infinite;
-		}
-	}
-
-	&.added {
-		&:after {
-			font-family: 'WooCommerce';
-			content: "\e017";
-			margin-left: 0.53em;
-			vertical-align: bottom;
-		}
-	}
-
-	&:hover,
-	&:focus {
-		background-color: $woocommerce-button-bg-color-hover;
-		text-decoration: none;
-		background-image: none;
-		color: $woocommerce-button-color-hover;
-	}
 
 	&.disabled,
 	&:disabled,
@@ -68,8 +14,6 @@ input.button,
 	&.disabled:focus,
 	&:disabled:focus,
 	&:disabled[disabled]:focus {
-		background-color: inherit;
-		color: inherit;
 		cursor: not-allowed;
 		opacity: 0.5;
 	}

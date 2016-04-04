@@ -1,31 +1,32 @@
 // Product Loops
 //---------------------------------------------
-.woocommerce-pagination {
+.pagination {
+	@include full();
 	display: block;
 	margin-bottom: 20px;
 	text-align: center;
 
 	.page-numbers {
 		transition: all 0.2s ease-in-out;
-		background: $pagination-background-color;
-		border: 1px solid $pagination-border-color;
-		border-radius: $base-border-radius;
+		background: $woocommerce-pagination-background-color;
+		border: 1px solid $woocommerce-pagination-border-color;
+		border-radius: $woocommerce-base-border-radius;
 		display: inline-block;
 		margin-bottom: 10px;
 		padding: 10px 20px;
 	}
 
 	.current {
-		background: $pagination-current-background-color;
+		background: $woocommerce-pagination-current-background-color;
 	}
 
 	a {
-		color: $pagination-link-color;
+		color: $woocommerce-pagination-link-color;
 
 		&:hover,
 		&:focus {
-			background: $pagination-background-color-hover;
-			border: 1px solid $pagination-border-color-hover;
+			background: $woocommerce-pagination-background-color-hover;
+			border: 1px solid $woocommerce-pagination-border-color-hover;
 		}
 	}
 }
@@ -50,6 +51,7 @@ ul.products {
 			right: 0;
 			left: auto;
 			margin: -0.5em -0.5em 0 0;
+			z-index: 99;
 		}
 
 		h3 {
@@ -123,6 +125,7 @@ ul.products {
 }
 
 nav.woocommerce-pagination {
+	@include full();
 	text-align: center;
 
 	ul {
@@ -135,7 +138,7 @@ nav.woocommerce-pagination {
 		margin: 1px;
 
 		li {
-			border-right: 1px solid $woocommerce-pagination-link-border-color;
+			border-right: 1px solid $woocommerce-pagination-border-color;
 			padding: 0;
 			margin: 0;
 			float: left;
@@ -158,8 +161,8 @@ nav.woocommerce-pagination {
 			span.current,
 			a:hover,
 			a:focus {
-				background: $woocommerce-pagination-bg-color;
-				color: $woocommerce-pagination-color;
+				background: $woocommerce-pagination-background-color;
+				color: $woocommerce-pagination-link-color;
 			}
 		}
 	}
