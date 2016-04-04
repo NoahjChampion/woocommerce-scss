@@ -296,7 +296,11 @@ table.cart,
 		text-align: right;
 
 		.input-text {
-			width: 80px;
+			max-width: 100px;
+
+			@include min-screen($woocommerce-medium-screen) {
+				width: auto;
+			}
 		}
 
 		.coupon {
