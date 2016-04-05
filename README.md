@@ -5,7 +5,7 @@ WooCommerce styles for use in Alpha, Foxtrot, and any other Sassy WordPress them
 __Contributors:__ [Ozzy Rodriguez](https://github.com/ozzyrod), [Robert Neu](https://github.com/robneu)  
 __Requires:__ WordPress 4.5, WooCommerce 2.5.2  
 __Tested up to:__ WordPress 4.5, WooCommerce 2.5.2  
-__License:__ [GPL-2.0+](http://www.gnu.org/licenses/gpl-2.0.html)  
+__License:__ [MIT](http://wpsitecare.mit-license.org/)  
 
 ### Requirements
 
