@@ -2,9 +2,16 @@
 
 WooCommerce styles for use in Alpha, Foxtrot, and any other Sassy WordPress theme.
 
-__Contributors:__ [Robert Neu](https://github.com/robneu), [Ozzy Rodriguez](https://github.com/ozzyrod)  
-__Requires:__ WordPress 4.4, WooCommerce 2.5.2  
-__Tested up to:__ WordPress 4.4, WooCommerce 2.5.2  
+__Contributors:__ [Ozzy Rodriguez](https://github.com/ozzyrod), [Robert Neu](https://github.com/robneu)  
+__Requires:__ WordPress 4.5, WooCommerce 2.5.2  
+__Tested up to:__ WordPress 4.5, WooCommerce 2.5.2  
 __License:__ [GPL-2.0+](http://www.gnu.org/licenses/gpl-2.0.html)  
 
-Please note: this software is still under fairly active development. You are free to use it, fork it, and contribute to it, but things will likely break before a stable version is tagged. You've been warned.
+### Requirements
+
+- [Susy](http://susy.oddbird.net/)
+- [Sass MediaQueries](https://github.com/paranoida/sass-mediaqueries)
+
+### Usage
+
+The easiest way to use these styles is to clone them into your theme and integrate them into your build process. They will work out of the box with the Alpha and Foxtrot starter themes. They share the same variable and dependency structure as Alpha and Foxtrot, so you may need to make adjustments if you want to use the styles in another theme. Please feel free to fork and adapt these styles to meet your own needs!
