@@ -8,10 +8,10 @@ p.demo_store {
 	font-size: $base-font-size;
 	padding: 1em 0;
 	text-align: center;
-	background-color: $base-button-background-color;
+	background-color: $base-button-bg-color;
 	color: $base-button-font-color;
 	z-index: 99998;
-	box-shadow: 0 1px 16px rgba($base-border-color, 0.2);
+	box-shadow: 0 1px 16px rgba( $base-border-color, 0.2 );
 
 	a {
 		color: $base-button-font-color;
